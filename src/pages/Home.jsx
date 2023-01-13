@@ -1,9 +1,10 @@
-import React from "react";
+// Components
+import GetRating from "../components/GetRating";
 
 function Home() {
   return (
     <div>
-      <h1>Hello Home</h1>
+      <GetRating />
     </div>
   );
 }

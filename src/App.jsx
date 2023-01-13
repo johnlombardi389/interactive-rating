@@ -1,10 +1,12 @@
+// Pages
+import Home from "./pages/Home";
 // Style
 import GlobalStyles from "./components/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Home />
     </div>
   );
 }

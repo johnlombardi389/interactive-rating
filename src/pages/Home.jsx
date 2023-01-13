@@ -1,5 +1,7 @@
 // Components
 import GetRating from "../components/GetRating";
+// Style
+import styled from "styled-components";
 
 function Home() {
   return (

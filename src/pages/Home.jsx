@@ -5,10 +5,16 @@ import styled from "styled-components";
 
 function Home() {
   return (
-    <div>
+    <Container>
       <GetRating />
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  display: grid;
+  place-items: center;
+  height: 100vh;
+`;
 
 export default Home;

@@ -7,10 +7,15 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
+
   p {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     font-size: 0.95rem;
+    color: hsl(0, 0%, 100%);
   }
 `;
 

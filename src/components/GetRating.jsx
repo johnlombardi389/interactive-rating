@@ -4,7 +4,7 @@ import styled from "styled-components";
 function GetRating() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <p>Hello World</p>
     </div>
   );
 }

@@ -27,7 +27,7 @@ function GetRating() {
 const Card = styled.div`
   max-width: 500px;
   max-height: 500px;
-  background: linear-gradient(160deg, #212832, #171e28);
+  background: radial-gradient(ellipse at top left, #212832, #171e28);
   border-radius: 2.5rem;
   padding: 2rem;
   h1 {

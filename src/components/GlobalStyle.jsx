@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: #141519;
   }
 
   p {

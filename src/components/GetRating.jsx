@@ -53,7 +53,8 @@ const Card = styled.div`
   }
   button {
     margin-top: 2rem;
-    padding: 1rem 5rem;
+    padding: 1rem;
+    width: 100%;
     cursor: pointer;
     background: #fc7613;
     border: none;

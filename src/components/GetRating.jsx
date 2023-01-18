@@ -1,6 +1,6 @@
 // Style
 import styled from "styled-components";
-// Star icon
+// Icon
 import StarIcon from "../assets/images/icon-star.svg";
 
 function GetRating() {
@@ -32,7 +32,7 @@ function GetRating() {
 }
 
 const Card = styled.div`
-  max-width: 400px;
+  max-width: 450px;
   max-height: 500px;
   background: radial-gradient(ellipse at top left, #212832, #171e28);
   border-radius: 2.5rem;

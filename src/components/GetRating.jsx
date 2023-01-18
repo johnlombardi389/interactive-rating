@@ -25,7 +25,7 @@ function GetRating() {
 }
 
 const Card = styled.div`
-  max-width: 500px;
+  max-width: 400px;
   max-height: 500px;
   background: radial-gradient(ellipse at top left, #212832, #171e28);
   border-radius: 2.5rem;
@@ -42,7 +42,7 @@ const Card = styled.div`
   }
   button {
     margin-top: 2rem;
-    padding: 1rem 12rem;
+    padding: 1rem 5rem;
     cursor: pointer;
     background: #fc7613;
     border: none;
@@ -63,7 +63,7 @@ const Choices = styled.ul`
     color: white;
     width: 1rem;
     height: 1rem;
-    padding: 2rem;
+    padding: 1.75rem;
     background: #262f38;
     border-radius: 50%;
     display: flex;

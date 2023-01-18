@@ -4,35 +4,14 @@ import styled from "styled-components";
 // Icon
 import StarIcon from "../assets/images/icon-star.svg";
 
-function GetRating() {
-  const [rating, setRating] = useState(0);
-  const [rated, setRated] = useState({
-    clicked: false,
-  });
-
-  const ratingHandler = (e) => {
-    setRating(parseInt(e.target.innerHTML));
-
-    const numbers = e.target.parentElement.children;
-
-    for (let i = 0; i < numbers.length; i++) {
-      numbers[i].classList.add("rating-default");
-      numbers[i].classList.remove("rating-active");
-    }
-    e.target.classList.add("rating-active");
-    e.target.classList.remove("rating-default");
-  };
-
-  const btnHandler = (e) => {
-    if (rating === 0) {
-      e.target.style.background = "#fc7613";
-      e.target.style.color = "white";
-    } else {
-      e.target.style.background = "white";
-      e.target.style.color = "#fc7613";
-    }
-  };
-
+function GetRating({
+  rating,
+  setRating,
+  rated,
+  setRated,
+  ratingHandler,
+  btnHandler,
+}) {
   return (
     <div>
       <Card>

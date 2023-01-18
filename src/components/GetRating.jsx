@@ -33,10 +33,12 @@ const Card = styled.div`
   h1 {
     margin: 2rem 0;
     color: white;
+    font-size: 2rem;
   }
   p {
     margin-bottom: 2rem;
     color: #717882;
+    font-size: 1rem;
   }
   button {
     margin-top: 2rem;
@@ -48,6 +50,7 @@ const Card = styled.div`
     border-radius: 2rem;
     color: white;
     text-transform: uppercase;
+    font-size: 1rem;
   }
 `;
 
@@ -67,6 +70,7 @@ const Choices = styled.ul`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-size: 1rem;
   }
 `;
 

@@ -4,14 +4,7 @@ import styled from "styled-components";
 // Icon
 import StarIcon from "../assets/images/icon-star.svg";
 
-function GetRating({
-  rating,
-  setRating,
-  rated,
-  setRated,
-  ratingHandler,
-  btnHandler,
-}) {
+function GetRating({ ratingHandler, btnHandler }) {
   return (
     <div>
       <Card>

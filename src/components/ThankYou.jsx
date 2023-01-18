@@ -4,14 +4,17 @@ import styled from "styled-components";
 // Image
 import ThankYouImg from "../assets/images/illustration-thank-you.svg";
 
-function ThankYou() {
+function ThankYou({ rating }) {
   return (
     <div>
       <Card>
-        <h1>How did we do?</h1>
+        <Rating>
+          <p>You selected {rating} out of 5</p>
+        </Rating>
+        <h1>Thank you!</h1>
         <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
         </p>
       </Card>
     </div>
@@ -37,6 +40,20 @@ const Card = styled.div`
     font-size: 1rem;
     font-family: "Overpass", sans-serif;
     font-weight: 400;
+  }
+`;
+
+const Rating = styled.div`
+  background: #262f38;
+  width: 50%;
+  border-radius: 2rem;
+  p {
+    text-align: center;
+    color: #fc7613;
+    font-size: 0.9rem;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    padding: 0.5rem;
   }
 `;
 

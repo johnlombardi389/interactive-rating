@@ -36,16 +36,9 @@ function Home() {
   return (
     <Container>
       {rated === false ? (
-        <GetRating
-          rating={rating}
-          setRating={setRating}
-          rated={rated}
-          setRated={setRated}
-          ratingHandler={ratingHandler}
-          btnHandler={btnHandler}
-        />
+        <GetRating ratingHandler={ratingHandler} btnHandler={btnHandler} />
       ) : (
-        <ThankYou />
+        <ThankYou rating={rating} />
       )}
     </Container>
   );

@@ -41,11 +41,15 @@ const Card = styled.div`
     margin: 2rem 0;
     color: white;
     font-size: 2rem;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
   }
   p {
     margin-bottom: 2rem;
     color: #717882;
     font-size: 1rem;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
   }
   button {
     margin-top: 2rem;
@@ -58,6 +62,8 @@ const Card = styled.div`
     color: white;
     text-transform: uppercase;
     font-size: 1rem;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
   }
 `;
 
@@ -89,6 +95,8 @@ const Choices = styled.ul`
     align-items: center;
     cursor: pointer;
     font-size: 1rem;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
   }
 `;
 

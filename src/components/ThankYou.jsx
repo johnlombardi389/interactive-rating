@@ -8,6 +8,10 @@ function ThankYou({ rating }) {
   return (
     <div>
       <Card>
+        <img
+          src={ThankYouImg}
+          alt="Card and receipt svg showing you have selected a rating"
+        />
         <Rating>
           <p>You selected {rating} out of 5</p>
         </Rating>
@@ -27,6 +31,13 @@ const Card = styled.div`
   background: radial-gradient(ellipse at top left, #212832, #171e28);
   border-radius: 2.5rem;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin: 2rem 0;
+  }
   h1 {
     margin: 2rem 0;
     color: white;
@@ -40,20 +51,21 @@ const Card = styled.div`
     font-size: 1rem;
     font-family: "Overpass", sans-serif;
     font-weight: 400;
+    text-align: center;
   }
 `;
 
 const Rating = styled.div`
   background: #262f38;
-  width: 50%;
   border-radius: 2rem;
   p {
     text-align: center;
     color: #fc7613;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: "Overpass", sans-serif;
     font-weight: 400;
-    padding: 0.5rem;
+    margin: 0;
+    padding: 0.5rem 1.2rem;
   }
 `;
 

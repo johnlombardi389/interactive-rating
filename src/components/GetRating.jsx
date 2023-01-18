@@ -6,6 +6,9 @@ import StarIcon from "../assets/images/icon-star.svg";
 
 function GetRating() {
   const [rating, setRating] = useState(0);
+  const [rated, setRated] = useState({
+    clicked: false,
+  });
 
   const ratingHandler = (e) => {
     setRating(parseInt(e.target.innerHTML));
@@ -20,6 +23,16 @@ function GetRating() {
     e.target.classList.remove("rating-default");
   };
 
+  const btnHandler = (e) => {
+    if (rating === 0) {
+      e.target.style.background = "#fc7613";
+      e.target.style.color = "white";
+    } else {
+      e.target.style.background = "white";
+      e.target.style.color = "#fc7613";
+    }
+  };
+
   return (
     <div>
       <Card>
@@ -29,7 +42,7 @@ function GetRating() {
             alt="A star icon showing this card is about giving a rating"
           />
         </Star>
-        <h1>How did we do? {rating}</h1>
+        <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
@@ -51,7 +64,7 @@ function GetRating() {
             5
           </li>
         </Choices>
-        <button>Submit</button>
+        <button onClick={btnHandler}>Submit</button>
       </Card>
     </div>
   );

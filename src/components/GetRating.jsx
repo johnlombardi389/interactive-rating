@@ -1,11 +1,18 @@
 // Style
 import styled from "styled-components";
+// Star icon
+import StarIcon from "../assets/images/icon-star.svg";
 
 function GetRating() {
   return (
     <div>
       <Card>
-        {/* <Star></Star> */}
+        <Star>
+          <img
+            src={StarIcon}
+            alt="A star icon showing this card is about giving a rating"
+          />
+        </Star>
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback
@@ -52,6 +59,17 @@ const Card = styled.div`
     text-transform: uppercase;
     font-size: 1rem;
   }
+`;
+
+const Star = styled.div`
+  width: 1rem;
+  height: 1rem;
+  padding: 1.75rem;
+  background: #262f38;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Choices = styled.ul`

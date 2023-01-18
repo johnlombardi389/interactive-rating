@@ -64,6 +64,7 @@ const Card = styled.div`
     font-size: 1rem;
     font-family: "Overpass", sans-serif;
     font-weight: 700;
+    letter-spacing: 0.25rem;
   }
 `;
 

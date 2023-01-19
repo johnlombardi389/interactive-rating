@@ -33,6 +33,7 @@ This project is a simple, interactive rating card component that allows users to
 - Flexbox
 - Visual Studio Code
 - Git
+- Vite
 
 ### What I learned
 

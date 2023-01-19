@@ -42,7 +42,7 @@ function GetRating({ ratingHandler, btnHandler }) {
 
 const Card = styled.div`
   max-width: 450px;
-  max-height: 500px;
+  height: 475px;
   background: radial-gradient(ellipse at top left, #212832, #171e28);
   border-radius: 2.5rem;
   padding: 2rem;

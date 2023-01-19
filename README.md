@@ -20,7 +20,7 @@ This project is a simple, interactive rating card component that allows users to
 
 ### Links
 
-- Live Site URL: [Interactive Rating Card](https://johnlombardi389.github.io/product-preview-card/)
+- Live Site URL: [Interactive Rating Card](https://johnlombardi389.github.io/interactive-rating/)
 
 ## My process
 

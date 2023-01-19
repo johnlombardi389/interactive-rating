@@ -48,7 +48,6 @@ const Container = styled.div`
   display: grid;
   place-items: center;
   height: 100vh;
-  transition: all 0.5s ease;
 `;
 
 export default Home;

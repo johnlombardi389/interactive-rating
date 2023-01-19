@@ -1,6 +1,6 @@
 # Interactive Rating Card
 
-![Screenshot](./assets/images/intCard1.png)
+![Screenshot](/assets/images/intCard1.png)
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 This project is a simple, interactive rating card component that allows users to give a rating on a scale of 1 to 5. Originally this is my solution to the Interactive rating component challenge on Frontend Mentor using simple JavaScript to update the DOM. However I took the opportunity to build out my solution using React and styled-components. It also served as an opportunity to practice using the useState hook.
 
-![Screenshot](./assets/images/intCard2.png)
+![Screenshot](/assets/images/intCard2.png)
 
 ### Links
 

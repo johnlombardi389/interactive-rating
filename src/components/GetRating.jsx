@@ -6,39 +6,37 @@ import StarIcon from "../assets/images/icon-star.svg";
 
 function GetRating({ ratingHandler, btnHandler }) {
   return (
-    <div>
-      <Card>
-        <Star>
-          <img
-            src={StarIcon}
-            alt="A star icon showing this card is about giving a rating"
-          />
-        </Star>
-        <h1>How did we do?</h1>
-        <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-        <Choices>
-          <li onClick={ratingHandler} className="rating-default">
-            1
-          </li>
-          <li onClick={ratingHandler} className="rating-default">
-            2
-          </li>
-          <li onClick={ratingHandler} className="rating-default">
-            3
-          </li>
-          <li onClick={ratingHandler} className="rating-default">
-            4
-          </li>
-          <li onClick={ratingHandler} className="rating-default">
-            5
-          </li>
-        </Choices>
-        <button onClick={btnHandler}>Submit</button>
-      </Card>
-    </div>
+    <Card>
+      <Star>
+        <img
+          src={StarIcon}
+          alt="A star icon showing this card is about giving a rating"
+        />
+      </Star>
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <Choices>
+        <li onClick={ratingHandler} className="rating-default">
+          1
+        </li>
+        <li onClick={ratingHandler} className="rating-default">
+          2
+        </li>
+        <li onClick={ratingHandler} className="rating-default">
+          3
+        </li>
+        <li onClick={ratingHandler} className="rating-default">
+          4
+        </li>
+        <li onClick={ratingHandler} className="rating-default">
+          5
+        </li>
+      </Choices>
+      <button onClick={btnHandler}>Submit</button>
+    </Card>
   );
 }
 

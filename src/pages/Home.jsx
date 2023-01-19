@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // Components
 import GetRating from "../components/GetRating";
 import ThankYou from "../components/ThankYou";

@@ -6,22 +6,20 @@ import ThankYouImg from "../assets/images/illustration-thank-you.svg";
 
 function ThankYou({ rating }) {
   return (
-    <div>
-      <Card>
-        <img
-          src={ThankYouImg}
-          alt="Card and receipt svg showing you have selected a rating"
-        />
-        <Rating>
-          <p>You selected {rating} out of 5</p>
-        </Rating>
-        <h1>Thank you!</h1>
-        <p>
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don't hesitate to get in touch!
-        </p>
-      </Card>
-    </div>
+    <Card>
+      <img
+        src={ThankYouImg}
+        alt="Card and receipt svg showing you have selected a rating"
+      />
+      <Rating>
+        <p>You selected {rating} out of 5</p>
+      </Rating>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </Card>
   );
 }
 
